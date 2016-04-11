@@ -1,0 +1,1 @@
+// view for individual animal profile

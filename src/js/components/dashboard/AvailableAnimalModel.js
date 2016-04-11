@@ -1,0 +1,1 @@
+// model for individual animal
