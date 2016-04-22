@@ -1,1 +1,0 @@
-// model for user info

@@ -1,1 +1,0 @@
-// model for individual shelter
