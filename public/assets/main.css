@@ -374,7 +374,20 @@ th {
     text-transform: lowercase;
     color: white; }
   .footer-nav-view .nav:hover {
-    cursor: pointer; }
+    cursor: pointer;
+    background: #212121; }
+
+.details {
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2em;
+  padding-bottom: calc(20px + 70px); }
+
+.details:after {
+  content: '';
+  display: block;
+  clear: both; }
 
 .pet-img {
   display: block; }
@@ -397,26 +410,26 @@ th {
   font-size: 22px; }
 
 .animal-info-section {
-  width: 50%;
-  padding: 1em; }
-
-.deets {
-  float: left; }
+  margin: 0 auto; }
 
 .animal-info-section:after {
   content: '';
   display: block;
   clear: both; }
 
-.bio {
-  padding-bottom: calc(20px + 70px); }
-
 .animal-bio-section {
-  max-width: 100%;
-  padding: 0px 20px; }
+  padding: 0px 20px;
+  margin: 0 auto; }
+
+.animal-info-section,
+.animal-bio-section {
+  width: 50%;
+  float: left;
+  text-align: left; }
 
 .buttons {
-  display: block; }
+  display: block;
+  margin-bottom: 2em; }
 
 .availableAnimals {
   width: 100%;
@@ -543,6 +556,9 @@ label {
   border: none;
   margin-left: 45%; }
 
+.search-button:hover {
+  background: #66cc33; }
+
 .shelter-list {
   margin-left: 150px; }
 
@@ -575,7 +591,7 @@ label {
   border: none; }
 
 .info-button:hover {
-  background: #8bd76e;
+  background: #66cc33;
   text-decoration: none; }
 
 input[type=checkbox] {
@@ -600,7 +616,7 @@ input[type=checkbox] {
   border: none; }
 
 .btn:hover {
-  background: #8bd76e;
+  background: #66cc33;
   text-decoration: none; }
 
 *, *:before, *:after {
